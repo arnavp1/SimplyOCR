@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		47FFF74E2D74779600A6308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FFF7342D74779400A6308F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FFF73B2D74779400A6308F;
+			remoteInfo = SimplyOCR;
+		};
+		47FFF7582D74779600A6308F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FFF7342D74779400A6308F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47FFF73B2D74779400A6308F;
+			remoteInfo = SimplyOCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47FFF73C2D74779400A6308F /* SimplyOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFF74D2D74779600A6308F /* SimplyOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FFF7572D74779600A6308F /* SimplyOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		47FFF73E2D74779400A6308F /* SimplyOCR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimplyOCR;
+			sourceTree = "<group>";
+		};
+		47FFF7502D74779600A6308F /* SimplyOCRTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimplyOCRTests;
+			sourceTree = "<group>";
+		};
+		47FFF75A2D74779600A6308F /* SimplyOCRUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimplyOCRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47FFF7392D74779400A6308F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFF74A2D74779600A6308F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFF7542D74779600A6308F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FFF7332D74779400A6308F = {
+			isa = PBXGroup;
+			children = (
+				47FFF73E2D74779400A6308F /* SimplyOCR */,
+				47FFF7502D74779600A6308F /* SimplyOCRTests */,
+				47FFF75A2D74779600A6308F /* SimplyOCRUITests */,
+				47FFF73D2D74779400A6308F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47FFF73D2D74779400A6308F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FFF73C2D74779400A6308F /* SimplyOCR.app */,
+				47FFF74D2D74779600A6308F /* SimplyOCRTests.xctest */,
+				47FFF7572D74779600A6308F /* SimplyOCRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47FFF73B2D74779400A6308F /* SimplyOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FFF7612D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCR" */;
+			buildPhases = (
+				47FFF7382D74779400A6308F /* Sources */,
+				47FFF7392D74779400A6308F /* Frameworks */,
+				47FFF73A2D74779400A6308F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				47FFF73E2D74779400A6308F /* SimplyOCR */,
+			);
+			name = SimplyOCR;
+			packageProductDependencies = (
+			);
+			productName = SimplyOCR;
+			productReference = 47FFF73C2D74779400A6308F /* SimplyOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47FFF74C2D74779600A6308F /* SimplyOCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FFF7642D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRTests" */;
+			buildPhases = (
+				47FFF7492D74779600A6308F /* Sources */,
+				47FFF74A2D74779600A6308F /* Frameworks */,
+				47FFF74B2D74779600A6308F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47FFF74F2D74779600A6308F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				47FFF7502D74779600A6308F /* SimplyOCRTests */,
+			);
+			name = SimplyOCRTests;
+			packageProductDependencies = (
+			);
+			productName = SimplyOCRTests;
+			productReference = 47FFF74D2D74779600A6308F /* SimplyOCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47FFF7562D74779600A6308F /* SimplyOCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FFF7672D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRUITests" */;
+			buildPhases = (
+				47FFF7532D74779600A6308F /* Sources */,
+				47FFF7542D74779600A6308F /* Frameworks */,
+				47FFF7552D74779600A6308F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47FFF7592D74779600A6308F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				47FFF75A2D74779600A6308F /* SimplyOCRUITests */,
+			);
+			name = SimplyOCRUITests;
+			packageProductDependencies = (
+			);
+			productName = SimplyOCRUITests;
+			productReference = 47FFF7572D74779600A6308F /* SimplyOCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FFF7342D74779400A6308F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					47FFF73B2D74779400A6308F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					47FFF74C2D74779600A6308F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 47FFF73B2D74779400A6308F;
+					};
+					47FFF7562D74779600A6308F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 47FFF73B2D74779400A6308F;
+					};
+				};
+			};
+			buildConfigurationList = 47FFF7372D74779400A6308F /* Build configuration list for PBXProject "SimplyOCR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47FFF7332D74779400A6308F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 47FFF73D2D74779400A6308F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47FFF73B2D74779400A6308F /* SimplyOCR */,
+				47FFF74C2D74779600A6308F /* SimplyOCRTests */,
+				47FFF7562D74779600A6308F /* SimplyOCRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47FFF73A2D74779400A6308F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFF74B2D74779600A6308F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFF7552D74779600A6308F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47FFF7382D74779400A6308F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFF7492D74779600A6308F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FFF7532D74779600A6308F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47FFF74F2D74779600A6308F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FFF73B2D74779400A6308F /* SimplyOCR */;
+			targetProxy = 47FFF74E2D74779600A6308F /* PBXContainerItemProxy */;
+		};
+		47FFF7592D74779600A6308F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47FFF73B2D74779400A6308F /* SimplyOCR */;
+			targetProxy = 47FFF7582D74779600A6308F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		47FFF75F2D74779600A6308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47FFF7602D74779600A6308F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		47FFF7622D74779600A6308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimplyOCR/SimplyOCR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyOCR/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47FFF7632D74779600A6308F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimplyOCR/SimplyOCR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimplyOCR/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		47FFF7652D74779600A6308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyOCR";
+			};
+			name = Debug;
+		};
+		47FFF7662D74779600A6308F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyOCR";
+			};
+			name = Release;
+		};
+		47FFF7682D74779600A6308F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimplyOCR;
+			};
+			name = Debug;
+		};
+		47FFF7692D74779600A6308F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimplyOCR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47FFF7372D74779400A6308F /* Build configuration list for PBXProject "SimplyOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFF75F2D74779600A6308F /* Debug */,
+				47FFF7602D74779600A6308F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FFF7612D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFF7622D74779600A6308F /* Debug */,
+				47FFF7632D74779600A6308F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FFF7642D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFF7652D74779600A6308F /* Debug */,
+				47FFF7662D74779600A6308F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FFF7672D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FFF7682D74779600A6308F /* Debug */,
+				47FFF7692D74779600A6308F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47FFF7342D74779400A6308F /* Project object */;
+}
