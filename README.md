@@ -28,7 +28,7 @@ A **SwiftUI-powered** macOS app for **selective region screenshots** and **insta
 ## **🛠 Installation**
 
 1. **Download the DMG** from the Releases page.
-2. **Drag & Drop** the `QRScanner.app` into your **Applications** folder.
+2. **Drag & Drop** the `SimplyOCR.app` into your **Applications** folder.
 3. **Grant Screen Recording Permission** when prompted (for taking screenshots).
 
 ---
