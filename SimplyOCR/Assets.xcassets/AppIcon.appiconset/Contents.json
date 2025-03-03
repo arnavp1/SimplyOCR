@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "Massive App Icon Pack_16x16x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
+      "filename" : "Massive App Icon Pack_32x32x32 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
@@ -21,31 +23,37 @@
       "size" : "32x32"
     },
     {
+      "filename" : "Massive App Icon Pack_128x128x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "Massive App Icon Pack_256x256x32 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "Massive App Icon Pack_256x256x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "Massive App Icon Pack_512x512x32 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "Massive App Icon Pack_512x512x32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "Massive App Icon Pack_1024x1024x32.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

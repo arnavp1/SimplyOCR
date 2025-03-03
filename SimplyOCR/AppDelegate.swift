@@ -8,12 +8,13 @@
 import Cocoa
 import SwiftUI
 import KeyboardShortcuts
+import UserNotifications
 
 extension Notification.Name {
     static let settingsChanged = Notification.Name("settingsChanged")
 }
 
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDelegate {
     var statusItem: NSStatusItem?
     
     lazy var settingsWC: NSWindowController = {
@@ -25,9 +26,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }()
     
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // Set activation based on stored setting (default regular)
-        updateAppearance()
+        NSApp.setActivationPolicy(.regular)
         
+        // Set the notification delegate so that notifications appear even if the app is in the foreground
+        UNUserNotificationCenter.current().delegate = self
+        
+        updateAppearance()
         NotificationCenter.default.addObserver(self, selector: #selector(settingsDidChange), name: .settingsChanged, object: nil)
         
         if KeyboardShortcuts.getShortcut(for: KeyboardShortcuts.Name.captureAndOCR) == nil {
@@ -67,7 +71,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             if statusItem == nil {
                 statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
                 if let button = statusItem?.button {
-                    button.title = "SimplyOCR"
+                    button.image = NSImage(systemSymbolName: "camera.viewfinder", accessibilityDescription: nil)
                 }
                 let menu = NSMenu()
                 menu.addItem(NSMenuItem(title: "Settings", action: #selector(openSettings), keyEquivalent: ","))
@@ -78,5 +82,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         } else {
             statusItem = nil
         }
+    }
+    
+    // UNUserNotificationCenterDelegate method
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.banner, .sound])
     }
 }
