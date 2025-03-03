@@ -9,16 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text("SimplyOCR is running!\nUse your global hotkey to capture and OCR.")
+            .multilineTextAlignment(.center)
+            .frame(width: 300, height: 200)
     }
-}
-
-#Preview {
-    ContentView()
 }

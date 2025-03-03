@@ -6,43 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		47FFF74E2D74779600A6308F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47FFF7342D74779400A6308F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47FFF73B2D74779400A6308F;
-			remoteInfo = SimplyOCR;
-		};
-		47FFF7582D74779600A6308F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47FFF7342D74779400A6308F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47FFF73B2D74779400A6308F;
-			remoteInfo = SimplyOCR;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		47FFF76C2D7478F600A6308F /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 47FFF76B2D7478F600A6308F /* HotKey */; };
+		47FFF7782D7482F300A6308F /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 47FFF7772D7482F300A6308F /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47FFF73C2D74779400A6308F /* SimplyOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47FFF74D2D74779600A6308F /* SimplyOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47FFF7572D74779600A6308F /* SimplyOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		47FFF73E2D74779400A6308F /* SimplyOCR */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SimplyOCR;
-			sourceTree = "<group>";
-		};
-		47FFF7502D74779600A6308F /* SimplyOCRTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimplyOCRTests;
-			sourceTree = "<group>";
-		};
-		47FFF75A2D74779600A6308F /* SimplyOCRUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SimplyOCRUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,20 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47FFF74A2D74779600A6308F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47FFF7542D74779600A6308F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				47FFF76C2D7478F600A6308F /* HotKey in Frameworks */,
+				47FFF7782D7482F300A6308F /* KeyboardShortcuts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				47FFF73E2D74779400A6308F /* SimplyOCR */,
-				47FFF7502D74779600A6308F /* SimplyOCRTests */,
-				47FFF75A2D74779600A6308F /* SimplyOCRUITests */,
 				47FFF73D2D74779400A6308F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				47FFF73C2D74779400A6308F /* SimplyOCR.app */,
-				47FFF74D2D74779600A6308F /* SimplyOCRTests.xctest */,
-				47FFF7572D74779600A6308F /* SimplyOCRUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,56 +72,12 @@
 			);
 			name = SimplyOCR;
 			packageProductDependencies = (
+				47FFF76B2D7478F600A6308F /* HotKey */,
+				47FFF7772D7482F300A6308F /* KeyboardShortcuts */,
 			);
 			productName = SimplyOCR;
 			productReference = 47FFF73C2D74779400A6308F /* SimplyOCR.app */;
 			productType = "com.apple.product-type.application";
-		};
-		47FFF74C2D74779600A6308F /* SimplyOCRTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47FFF7642D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRTests" */;
-			buildPhases = (
-				47FFF7492D74779600A6308F /* Sources */,
-				47FFF74A2D74779600A6308F /* Frameworks */,
-				47FFF74B2D74779600A6308F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47FFF74F2D74779600A6308F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				47FFF7502D74779600A6308F /* SimplyOCRTests */,
-			);
-			name = SimplyOCRTests;
-			packageProductDependencies = (
-			);
-			productName = SimplyOCRTests;
-			productReference = 47FFF74D2D74779600A6308F /* SimplyOCRTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		47FFF7562D74779600A6308F /* SimplyOCRUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47FFF7672D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRUITests" */;
-			buildPhases = (
-				47FFF7532D74779600A6308F /* Sources */,
-				47FFF7542D74779600A6308F /* Frameworks */,
-				47FFF7552D74779600A6308F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47FFF7592D74779600A6308F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				47FFF75A2D74779600A6308F /* SimplyOCRUITests */,
-			);
-			name = SimplyOCRUITests;
-			packageProductDependencies = (
-			);
-			productName = SimplyOCRUITests;
-			productReference = 47FFF7572D74779600A6308F /* SimplyOCRUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,14 +92,6 @@
 					47FFF73B2D74779400A6308F = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					47FFF74C2D74779600A6308F = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 47FFF73B2D74779400A6308F;
-					};
-					47FFF7562D74779600A6308F = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 47FFF73B2D74779400A6308F;
-					};
 				};
 			};
 			buildConfigurationList = 47FFF7372D74779400A6308F /* Build configuration list for PBXProject "SimplyOCR" */;
@@ -195,34 +103,22 @@
 			);
 			mainGroup = 47FFF7332D74779400A6308F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				47FFF76A2D7478F600A6308F /* XCRemoteSwiftPackageReference "HotKey" */,
+				47FFF7762D7482F300A6308F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 47FFF73D2D74779400A6308F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				47FFF73B2D74779400A6308F /* SimplyOCR */,
-				47FFF74C2D74779600A6308F /* SimplyOCRTests */,
-				47FFF7562D74779600A6308F /* SimplyOCRUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		47FFF73A2D74779400A6308F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47FFF74B2D74779600A6308F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47FFF7552D74779600A6308F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47FFF7492D74779600A6308F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		47FFF7532D74779600A6308F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		47FFF74F2D74779600A6308F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47FFF73B2D74779400A6308F /* SimplyOCR */;
-			targetProxy = 47FFF74E2D74779600A6308F /* PBXContainerItemProxy */;
-		};
-		47FFF7592D74779600A6308F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47FFF73B2D74779400A6308F /* SimplyOCR */;
-			targetProxy = 47FFF7582D74779600A6308F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		47FFF75F2D74779600A6308F /* Debug */ = {
@@ -396,7 +265,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimplyOCR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -421,7 +289,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimplyOCR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -434,70 +301,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		47FFF7652D74779600A6308F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyOCR";
-			};
-			name = Debug;
-		};
-		47FFF7662D74779600A6308F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyOCR";
-			};
-			name = Release;
-		};
-		47FFF7682D74779600A6308F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SimplyOCR;
-			};
-			name = Debug;
-		};
-		47FFF7692D74779600A6308F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.podichetty.SimplyOCRUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SimplyOCR;
 			};
 			name = Release;
 		};
@@ -522,25 +325,39 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47FFF7642D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47FFF7652D74779600A6308F /* Debug */,
-				47FFF7662D74779600A6308F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47FFF7672D74779600A6308F /* Build configuration list for PBXNativeTarget "SimplyOCRUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47FFF7682D74779600A6308F /* Debug */,
-				47FFF7692D74779600A6308F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		47FFF76A2D7478F600A6308F /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		47FFF7762D7482F300A6308F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		47FFF76B2D7478F600A6308F /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47FFF76A2D7478F600A6308F /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+		47FFF7772D7482F300A6308F /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 47FFF7762D7482F300A6308F /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 47FFF7342D74779400A6308F /* Project object */;
 }

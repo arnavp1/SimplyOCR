@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct SimplyOCRApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .fixedSize()
+        }
+        .windowResizability(.contentSize)
+        Settings {
+            SettingsView()
         }
     }
 }
